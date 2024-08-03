@@ -77,7 +77,7 @@ st.markdown('''
 <style>
     .e1nzilvr1, .e1vs0wn31 {display:none}
     #jamiagpt {padding: 0}
-    .eczjsme7 {height: 40px}
+    .eczjsme7 {height: 75px}
 </style>
 ''', unsafe_allow_html=True)
 
