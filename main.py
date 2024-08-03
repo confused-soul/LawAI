@@ -84,7 +84,7 @@ st.markdown('''
 disc = st.expander(label=":red[Disclaimer!]")
 disc.write("Law AI is still in Prototype-Phase. The model is not perfect and may give irrelevant answers. I am still working on the Dataset. If you wanna help feel free to reach me out, or put Issues on GitHub!")
 
-USER_AVATAR = "😁"
+USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
 
 # Initialize chat history
