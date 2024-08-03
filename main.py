@@ -78,6 +78,11 @@ st.markdown('''
     .e1nzilvr1, .e1vs0wn31 {display:none}
     #jamiagpt {padding: 0}
     .eczjsme7 {height: 75px}
+
+    @media screen and (max-width: 900px) 
+    {
+        .eczjsme7 {height: 40px}
+    }
 </style>
 ''', unsafe_allow_html=True)
 
