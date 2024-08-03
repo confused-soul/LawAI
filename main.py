@@ -87,7 +87,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 disc = st.expander(label=":red[Disclaimer!]")
-disc.write("Law AI is still in Prototype-Phase. The model is not perfect and may give irrelevant answers. I am still working on the Dataset. If you wanna help feel free to reach me out, or put Issues on GitHub!")
+disc.write("Samvidhan AI is still in Prototype-Phase. It only has the data of Indian Constitution. The model is not perfect and may give irrelevant answers sometimes. I am still working on the Dataset. If you wanna help feel free to reach me out, or put Issues on GitHub!")
 
 USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
