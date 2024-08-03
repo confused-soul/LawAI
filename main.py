@@ -10,8 +10,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from hide_it import gemini_api, hf_api as inference_api_key
 import streamlit as st
 
-gemini_api_key = gemini_api
-inference_api_key = inference_api_key
+gemini_api_key = st.secrets['gemini_api_key']
+inference_api_key = st.secrets['inference_api_key']
 
 def create_db():
     embedding = HuggingFaceInferenceAPIEmbeddings(
