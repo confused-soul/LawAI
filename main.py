@@ -65,8 +65,8 @@ def process_chat(chain, question, chat_history):
 vectorStore = create_db()
 chain = create_chain(vectorStore)
 
-st.set_page_config(page_title="Law AI", page_icon="ashoka-logo.png")
-st.logo("ashoka-logo.png")
+st.set_page_config(page_title="Samvidhan AI", page_icon="ashoka-logo.png")
+st.logo("web-logo.png")
 
 st.markdown('''
 <html>
