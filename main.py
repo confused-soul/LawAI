@@ -7,7 +7,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from hide_it import gemini_api, hf_api as inference_api_key
+#from hide_it import gemini_api, hf_api as inference_api_key
 import streamlit as st
 
 gemini_api_key = st.secrets['gemini_api_key']
